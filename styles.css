@@ -1,0 +1,110 @@
+.navbar .navbar-brand{
+    font-size: 20px;
+    font-family: 'Nunito' , sans-serif;
+}
+.navbar a{
+   color:white !important;
+}
+/* .navbar-toggler .navbar-toggler-icon .navbar-collapse{
+    color: white !important;
+} */
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.custom-toggler.navbar-toggler {
+border-color: transparent;
+} 
+
+.seccion-1{
+    background-image: url(images/fondo1.jpg); 
+    background-color: #031021;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position-x: center; */
+    background-position-y: top;
+    /* background-size: cover; */
+    /* background-position-y: 100%; */
+
+}
+.texto-intro{
+    color:white;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.texto-intro h2{
+   font-size: 70px;
+   padding-bottom: 50px;
+   
+}
+.texto-intro p{
+    font-size: 22px;
+ }
+.texto-intro-acerca{
+    color:white;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.texto-parrafo p{
+    color:white;
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+/* .boton-div{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+button{
+    border-radius: 40px !important;
+    font-size: 20px !important;
+    
+}
+.btn-primary{
+    background-color: #FFD05A !important;
+    color: white !important;
+    border: none !important;
+    padding: 8px 25px !important;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    
+}
+.btn-outline-primary{
+    border-color: #FFD05A !important;
+    color: #FFD05A !important;
+    padding: 8px 25px !important;
+}
+.btn-outline-primary:hover {
+    background-color:#FFD05A !important;
+    color: white !important;
+  }
+.boton-bot i{
+    color: white;
+    background: #F5EC69;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   
+}
+.encuesta-bloque{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.marcopdf{
+    width: 90%;
+    height: 90vh;
+    padding-top: 2vh;
+    border-radius: 10px;
+    background-color: #031021;
+}
+
+.centrado{
+    text-align: center;
+}
+    
+    
