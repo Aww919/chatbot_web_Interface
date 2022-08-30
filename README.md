@@ -12,7 +12,9 @@ Los estilos y formatos de los componentes de la página web están definidos en 
 Para conectar el sitio web con el chatbot, se realiza una conexión mediante websockets (canal socketIO). 
 ### Si los usuarios usan el mismo ordenador en el que se ejecuta el chatbot:
 En el archivo _index.html_ escribir la siguiente línea:  
+~~~
 	socketUrl: "http://localhost:5005"  
+	~~~
 Esto significa que el archivo HTML comunicará con el puerto 5005 del localhost, es decir, donde se ejecuta el chatbot.	
 
 ### Si los usuarios acceden desde otros dispositivos:
