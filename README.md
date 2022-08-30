@@ -14,7 +14,7 @@ Para conectar el sitio web con el chatbot, se realiza una conexión mediante web
 En el archivo _index.html_ escribir la siguiente línea:  
 ~~~
 	socketUrl: "http://localhost:5005"  
-	~~~
+~~~
 Esto significa que el archivo HTML comunicará con el puerto 5005 del localhost, es decir, donde se ejecuta el chatbot.	
 
 ### Si los usuarios acceden desde otros dispositivos:
