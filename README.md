@@ -20,7 +20,7 @@ Esto significa que el archivo HTML comunicará con el puerto 5005 del localhost,
 
 ### Si los usuarios acceden desde otros dispositivos:
 Para permitir que los usuarios puedan hablar con el chatbot sin tener que usar el mismo dispositivo con el que se ejecuta el proyecto de Rasa, se puede realizar la conexión con el localhost mediante un URL dinámico que apunta a él, usando la herramiento _ngrok_.
-- Para hallar el URL dinámico con _ngrok_ escribir la siguiente línea en la terminal:  
+- Para hallar un URL dinámico con _ngrok_ escribir la siguiente línea en la terminal:  
 ~~~
 	ngrok http 5005
 ~~~
