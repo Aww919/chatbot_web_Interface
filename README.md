@@ -7,6 +7,7 @@ El sitio web está formado por los siguientes archivos HTML:
 - guia-usuario.html
 - encuesta.html
 - acerca-de.html
+
 Los estilos y formatos de los componentes de la página web están definidos en el archivo styles.css.
 
 Para conectar el sitio web con el chatbot, se realiza una conexión mediante websockets (canal socketIO). 
