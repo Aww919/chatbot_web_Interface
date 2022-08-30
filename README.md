@@ -28,6 +28,6 @@ Se obtendrá un URL que apunta al puerto 5005 del localhost, es decir, donde se 
 
 - Introducir el URL dinámico en _index.html_:  
 ~~~
-	socketUrl: "https://14e8-79-116-134-205.eu.ngrok.io"
+	socketUrl: "https://xxxx-79-116-134-205.eu.ngrok.io"
 ~~~
 Este URL es diferente en cada sesión, por lo que es necesario realizar este proceso cada vez que se caduca o se empieza una sesión nueva.
